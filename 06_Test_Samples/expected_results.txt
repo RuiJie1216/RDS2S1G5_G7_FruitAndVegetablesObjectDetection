@@ -1,0 +1,70 @@
+Expected Results – AI Object Detection
+
+brocoli.jpg
+Expected Detection: Broccoli
+
+cherry.jpg
+Expected Detection: Cherry
+
+coconut.jpg
+Expected Detection: Coconut
+
+coconut2.jpg
+Expected Detection: Coconut
+
+cucumber.jpg
+Expected Detection: Cucumber
+
+cumcumber2.jpg
+Expected Detection: Cucumber
+
+eggplant.jpg
+Expected Detection: Eggplant
+
+eggplant2.jpg
+Expected Detection: Eggplant
+
+grape.jpg
+Expected Detection: Grape
+
+green bean.jpg
+Expected Detection: Green Bean
+
+images.jpg
+Expected Detection: Unknown / Based on Image Content
+
+kiwi.jpg
+Expected Detection: Kiwi
+
+mango.jpg
+Expected Detection: Mango
+
+orange.jpg
+Expected Detection: Orange
+
+orange2.jpg
+Expected Detection: Orange
+
+papaya.jpg
+Expected Detection: Papaya
+
+pineapple.webp
+Expected Detection: Pineapple
+
+potato.jpg
+Expected Detection: Potato
+
+strawverry.jpg
+Expected Detection: Strawberry
+
+tomato.jpg
+Expected Detection: Tomato
+
+watermelon.jpg
+Expected Detection: Watermelon
+
+avocado.jpg
+Expected Detection: Avocado
+
+banana.jpg
+Expected Detection: Banana

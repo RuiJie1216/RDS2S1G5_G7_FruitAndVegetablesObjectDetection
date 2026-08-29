@@ -1,0 +1,132 @@
+{
+  "model_name": "MobileNetV2-SSDLite",
+  "metrics": {
+    "detection_precision": 0.12239942667051738,
+    "detection_recall": 0.33960528268289064,
+    "detection_f1": 0.17994401811548622,
+    "classification_accuracy": 0.8037334907400575,
+    "classification_correct": 10893,
+    "classification_total_matched": 13553,
+    "objectness_precision": 0.12239942667051738,
+    "objectness_recall": 0.33960528268289064,
+    "objectness_f1": 0.17994401811548622,
+    "mean_iou": 0.6733457682995928,
+    "detection_rate_at_iou_0.5": 0.33960528268289064,
+    "true_positives": 11443,
+    "false_positives": 82046,
+    "false_negatives": 22252,
+    "num_ground_truth_objects": 33695,
+    "num_predictions": 93489,
+    "num_evaluated_images": 1500,
+    "assignment_confidence_threshold": 0.15,
+    "map_50": 0.06600429026033915,
+    "map_50_95": 0.02496843363104216,
+    "map_by_iou": {
+      "0.5": 0.06600429026033915,
+      "0.55": 0.05650524452535478,
+      "0.6": 0.04649410813612739,
+      "0.65": 0.03393280198683994,
+      "0.7": 0.023258437859517297,
+      "0.75": 0.013306354441101677,
+      "0.8": 0.006466687424368479,
+      "0.85": 0.0029827242369371426,
+      "0.9": 0.0005100617854928677,
+      "0.95": 0.00022362565434289706
+    }
+  },
+  "info": {
+    "model_name": "MobileNetV2-SSDLite (ImageNet-pretrained full-image detector)",
+    "architecture": "mobilenetv2_ssdlite_highres_v2",
+    "checkpoint_type": "mobilenetv2_object_detector",
+    "run_name": "mobilenetv2_ssdlite_highres_20260827_121914",
+    "dataset": "D:\\ai\\data\\LVIS_Fruits_And_Vegetables",
+    "num_foreground_classes": 63,
+    "internal_num_classes": 64,
+    "image_size": 512,
+    "anchor_profile": "small-object-highres",
+    "anchor_config": {
+      "aspect_ratios": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "scales": [
+        0.01,
+        0.02,
+        0.06,
+        0.13,
+        0.25,
+        0.42,
+        0.62,
+        0.82
+      ],
+      "clip": true
+    },
+    "confidence_threshold": 0.15,
+    "ap_score_threshold": 0.001,
+    "nms_threshold": 0.5,
+    "max_detections": 400,
+    "topk_candidates": 1000,
+    "positive_iou_threshold": 0.35,
+    "negative_to_positive_ratio": 10.0,
+    "classification_loss": "cross_entropy",
+    "focal_gamma": 2.0,
+    "focal_alpha": 0.25,
+    "batch_size": 4,
+    "phase1_epochs": 10,
+    "phase2_epochs": 20,
+    "backbone_lr": 2e-05,
+    "head_lr": 0.001,
+    "weight_decay": 0.0001,
+    "train_stage2": true,
+    "train_full_backbone": false,
+    "object_crop_probability": 0.5,
+    "evaluation_frequency": 1,
+    "selection_metric": "val_map_50_95",
+    "seed": 42,
+    "num_workers": 2,
+    "amp": true,
+    "early_stopping_patience": 0,
+    "early_stopping_min_delta": 0.0,
+    "scheduler_patience": 2,
+    "is_smoke_test": false,
+    "resume_overrides": {
+      "batch_size": {
+        "saved": "6",
+        "override": "4"
+      },
+      "num_workers": {
+        "saved": "4",
+        "override": "2"
+      }
+    },
+    "warm_start_source": null,
+    "test_set_accessed": false,
+    "dataset_fingerprint": "5a772ff5fce01839152f8346198910c1d66d2f1867793156453707c6ed201eba",
+    "checkpoint": "D:\\ai\\runs\\mobilenetv2_ssdlite_highres_20260827_121914\\mobilenetv2_detector_latest.pt",
+    "evaluation_split": "val",
+    "task_type": "object_detection",
+    "device": "cuda"
+  }
+}
