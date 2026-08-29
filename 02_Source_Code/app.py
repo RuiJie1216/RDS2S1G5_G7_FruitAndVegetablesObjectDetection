@@ -164,7 +164,7 @@ def load_yolo():
 @st.cache_resource(show_spinner="Loading MobileNetV2...")
 def load_mobilenet():
     with _model_load_lock:
-        mobilenet_dir = os.path.join(BASE_DIR, "Mobilenet_V2")
+        mobilenet_dir = os.path.join(BASE_DIR, "MobileNet_V2")
         with isolated_import_dir(mobilenet_dir):
             from train import load_detector_checkpoint
 
