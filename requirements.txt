@@ -8,6 +8,6 @@ torchmetrics
 pycocotools
 streamlit-webrtc
 av
-opencv-python
+opencv-python-headless
 imageio-ffmpeg
 plotly
