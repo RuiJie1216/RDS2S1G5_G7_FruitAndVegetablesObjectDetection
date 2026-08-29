@@ -2,4 +2,3 @@ venv/
 __pycache__/
 *.pyc
 03_Dataset/
-*.pt
